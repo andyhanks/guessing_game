@@ -7,7 +7,6 @@ C:\Users\user\workspace\csharp\Guessing\obj\Debug\net8.0\Guessing.GeneratedMSBui
 C:\Users\user\workspace\csharp\Guessing\obj\Debug\net8.0\Guessing.AssemblyInfoInputs.cache
 C:\Users\user\workspace\csharp\Guessing\obj\Debug\net8.0\Guessing.AssemblyInfo.cs
 C:\Users\user\workspace\csharp\Guessing\obj\Debug\net8.0\Guessing.csproj.CoreCompileInputs.cache
-C:\Users\user\workspace\csharp\Guessing\obj\Debug\net8.0\Guessing.sourcelink.json
 C:\Users\user\workspace\csharp\Guessing\obj\Debug\net8.0\Guessing.dll
 C:\Users\user\workspace\csharp\Guessing\obj\Debug\net8.0\refint\Guessing.dll
 C:\Users\user\workspace\csharp\Guessing\obj\Debug\net8.0\Guessing.pdb
