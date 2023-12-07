@@ -10,7 +10,7 @@ class Program
         Console.WriteLine("");
 
         // Phase 2 Step 1
-        int secretNumber = 42;
+        int secretNumber = new Random().Next(0, 101);
         int maxAttempts = 6;
         int attempts = 0;
 
