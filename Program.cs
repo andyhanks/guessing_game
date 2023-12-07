@@ -14,7 +14,7 @@ class Program
         int maxAttempts = 6;
         int attempts = 0;
 
-        while (attempts < maxAttempts)
+ while (attempts < maxAttempts)
         {
             // Step 2 User input
             Console.WriteLine("Enter your guess: ");
@@ -38,13 +38,18 @@ class Program
                 Console.WriteLine("Success!");
                 break; // Exit loop if the guess is correct
             }
+            else if (parsedUserGuessString < secretNumber)
+            {
+                Console.WriteLine("Too low!");
+            }
             else
             {
-                Console.WriteLine("Bummer :(");
-                if (attempts < maxAttempts)
-                {
-                    Console.WriteLine($"You have {maxAttempts - attempts} attempt(s) left.");
-                }
+                Console.WriteLine("Too high!");
+            }
+
+            if (attempts < maxAttempts)
+            {
+                Console.WriteLine($"You have {maxAttempts - attempts} attempt(s) left.");
             }
         }
 
@@ -54,4 +59,3 @@ class Program
         }
     }
 }
-
